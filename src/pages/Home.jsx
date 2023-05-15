@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo, homehero, aim, vision, mission, dao, partnerCard1, partnerCard2 } from "../assets"
+import { reach, aim, vision, mission, dao, partnerCard1, partnerCard2 } from "../assets"
 
 
 // import components here
@@ -56,9 +56,9 @@ const Home = () => {
     },
     {
       id: 3,
-      title: "title",
+      title: "Mansa Musa Ltd.",
       image: partnerCard1,
-      country: "Uganda",
+      country: "Kenya",
       task: "Join us as we mechanize our system for larger yield ",
       amount: 50000,
       target: 100000
@@ -99,6 +99,7 @@ const Home = () => {
       <div className='bg-white px-[270px]  flex flex-col gap-x-[54px] py-[190px]'>
         <h3 className='text-center font-medium text-[#24660C] text-[36px] mb-[10px]'>What we Aim to Achieve</h3>
         <p className='text-center text-[24px] text-[#525252] leading-[31.68px]'>Onboard individuals to passively participate in food production in Africa, to enable optimum arable land utilization, increased productivity and profitability for smallholder farmers, and sustenance of moderate pricing for agricultural produce and other key elements within the food production value chain.</p>
+        <img src={reach} alt="reach" className='mt-[70px] w-full' />
       </div>
       <div className='bg-white   flex flex-col gap-x-[54px] pb-[190px]'>
         <h3 className='text-center font-medium text-[#24660C] text-[36px] mb-[10px]'>Partner with a Farmer Today</h3>

@@ -9,6 +9,7 @@ import mission from "./mission.png"
 import dao from "./dao.png"
 import partnerCard1 from "./partnerCard1.png"
 import partnerCard2 from "./partnerCard2.png"
+import reach from "./reach.png"
 
 
 
@@ -20,5 +21,5 @@ export {
     aim, vision, mission
     , dao,
     partnerCard1,
-    partnerCard2
+    partnerCard2,reach
 }
