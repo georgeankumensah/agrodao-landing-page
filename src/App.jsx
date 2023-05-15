@@ -1,18 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+
+// import pages here
+import Home from './pages/Home'
+import Layout from './layout/Layout'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-       
-      <p className="bg-red-600">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div >
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />}/>
+          </Route>
+      </Routes>
+
+    </div>
   )
 }
 
